@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+    <TextView
+        android:id="@+id/text_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight = "5dp"
+        android:text="MY GST CALCULATOR"
+        android:textColor="#5D0DEC"
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/gst_by_gstnumber"
+        android:layout_margin="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GST DETAILS BY GST NUMBER"/>
+
+    <Button
+        android:id="@+id/gst_by_pan"
+        android:layout_margin="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GST DETAILS BY PAN NUMBER"/>
+
+    <Button
+        android:id="@+id/connect_professional"
+        android:layout_margin="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CONNECT WITH A PROFESSIONAL" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:clickable="true"
+        app:backgroundTint="#6217E6"
+        app:srcCompat="@android:drawable/ic_menu_camera" />
+
+
+</LinearLayout>
